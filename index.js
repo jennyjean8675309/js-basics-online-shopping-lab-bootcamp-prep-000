@@ -77,7 +77,6 @@ function placeOrder(cardNumber) {
   } else if (checkForNumber === true){
     while (cart.length > 0){
       cart.pop();
-      cart;
+    }
     } return `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`;
   }
-}
